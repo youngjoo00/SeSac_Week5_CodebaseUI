@@ -16,6 +16,10 @@
 		8E1E97B72B61E6210061BB9B /* NasaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E97B62B61E6210061BB9B /* NasaViewController.swift */; };
 		8E1E97B92B61EA9D0061BB9B /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E97B82B61EA9D0061BB9B /* EndPoint.swift */; };
 		8E1E97BC2B622DB60061BB9B /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E97BB2B622DB60061BB9B /* CodeViewController.swift */; };
+		8ED46ADC2B6520CE00C1781B /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED46ADB2B6520CE00C1781B /* UILabel+Extension.swift */; };
+		8ED46ADF2B652C3500C1781B /* ViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED46ADE2B652C3500C1781B /* ViewProtocol.swift */; };
+		8ED46AE12B654D9100C1781B /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED46AE02B654D9100C1781B /* UIButton+Extension.swift */; };
+		8ED46AE32B6553D600C1781B /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED46AE22B6553D600C1781B /* UIImageView+Extension.swift */; };
 		8EDEAB2B2B633473007E9DFB /* ConstraintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDEAB2A2B633473007E9DFB /* ConstraintsViewController.swift */; };
 		8EDEAB2E2B634805007E9DFB /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8EDEAB2D2B634805007E9DFB /* SnapKit */; };
 		8EDEAB302B634805007E9DFB /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 8EDEAB2F2B634805007E9DFB /* SnapKit-Dynamic */; };
@@ -41,6 +45,10 @@
 		8E1E97B62B61E6210061BB9B /* NasaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaViewController.swift; sourceTree = "<group>"; };
 		8E1E97B82B61EA9D0061BB9B /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
 		8E1E97BB2B622DB60061BB9B /* CodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
+		8ED46ADB2B6520CE00C1781B /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		8ED46ADE2B652C3500C1781B /* ViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProtocol.swift; sourceTree = "<group>"; };
+		8ED46AE02B654D9100C1781B /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		8ED46AE22B6553D600C1781B /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		8EDEAB2A2B633473007E9DFB /* ConstraintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintsViewController.swift; sourceTree = "<group>"; };
 		8EDEAB312B634962007E9DFB /* SnapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapViewController.swift; sourceTree = "<group>"; };
 		8EDEAB332B6357B6007E9DFB /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				8E145B182B5F8F2D00F648D4 /* SeSac_Week5-2 */,
+				8ED46ADA2B6520C100C1781B /* Extension */,
+				8ED46ADD2B652C1900C1781B /* Protocol */,
 				8E145B172B5F8F2D00F648D4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -117,6 +127,24 @@
 				8EDEAB352B635D4C007E9DFB /* CustomTableViewCell.swift */,
 			);
 			path = CodeBase;
+			sourceTree = "<group>";
+		};
+		8ED46ADA2B6520C100C1781B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8ED46ADB2B6520CE00C1781B /* UILabel+Extension.swift */,
+				8ED46AE02B654D9100C1781B /* UIButton+Extension.swift */,
+				8ED46AE22B6553D600C1781B /* UIImageView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8ED46ADD2B652C1900C1781B /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				8ED46ADE2B652C3500C1781B /* ViewProtocol.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 		8EDEAB372B63E29B007E9DFB /* Assignment */ = {
@@ -228,13 +256,17 @@
 			files = (
 				8E145B1E2B5F8F2D00F648D4 /* ViewController.swift in Sources */,
 				8EDEAB2B2B633473007E9DFB /* ConstraintsViewController.swift in Sources */,
+				8ED46ADC2B6520CE00C1781B /* UILabel+Extension.swift in Sources */,
+				8ED46AE12B654D9100C1781B /* UIButton+Extension.swift in Sources */,
 				8E1E97B72B61E6210061BB9B /* NasaViewController.swift in Sources */,
+				8ED46ADF2B652C3500C1781B /* ViewProtocol.swift in Sources */,
 				8E1E97B92B61EA9D0061BB9B /* EndPoint.swift in Sources */,
 				8EDEAB432B63E9F7007E9DFB /* SavedContentViewController.swift in Sources */,
 				8EDEAB322B634962007E9DFB /* SnapViewController.swift in Sources */,
 				8E1E97BC2B622DB60061BB9B /* CodeViewController.swift in Sources */,
 				8EDEAB362B635D4C007E9DFB /* CustomTableViewCell.swift in Sources */,
 				8EDEAB392B63E2CD007E9DFB /* HomeViewController.swift in Sources */,
+				8ED46AE32B6553D600C1781B /* UIImageView+Extension.swift in Sources */,
 				8EDEAB3B2B63E89A007E9DFB /* AssignmentTabBarController.swift in Sources */,
 				8E145B1A2B5F8F2D00F648D4 /* AppDelegate.swift in Sources */,
 				8EDEAB342B6357B6007E9DFB /* CustomTableViewController.swift in Sources */,
